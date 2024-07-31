@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-14T08:31:56 GMT-04:00" name="Suite" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="143">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.day1test2()[pri:0, instance:ng.day1@443118b0]" name="day1test2" class="ng.day1"/>
+        <method signature="day2.day2test2()[pri:0, instance:ng.day2@5e0e82ae]" name="day2test2" class="ng.day2"/>
+        <method signature="day3.day3test3()[pri:0, instance:ng.day3@6771beb3]" name="day3test3" class="ng.day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-05-14T08:31:56 GMT-04:00" name="Test" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="143">
+      <class name="ng.day3">
+        <test-method is-config="true" signature="bfsuite()[pri:0, instance:ng.day3@6771beb3]" started-at="2024-05-14T08:31:56 GMT-04:00" name="bfsuite" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsuite -->
+        <test-method is-config="true" signature="bftest()[pri:0, instance:ng.day3@6771beb3]" started-at="2024-05-14T08:31:56 GMT-04:00" name="bftest" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bftest -->
+        <test-method signature="day3test1()[pri:0, instance:ng.day3@6771beb3]" started-at="2024-05-14T08:31:56 GMT-04:00" name="day3test1" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day3test1 -->
+        <test-method is-config="true" signature="bftest()[pri:0, instance:ng.day3@6771beb3]" started-at="2024-05-14T08:31:56 GMT-04:00" name="bftest" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bftest -->
+        <test-method signature="day3test2()[pri:0, instance:ng.day3@6771beb3]" started-at="2024-05-14T08:31:56 GMT-04:00" name="day3test2" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day3test2 -->
+        <test-method signature="day3test3()[pri:0, instance:ng.day3@6771beb3]" started-at="2024-05-14T08:31:56 GMT-04:00" name="day3test3" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="13" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at ng.day3.day3test3(day3.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day3test3 -->
+        <test-method is-config="true" signature="bftest()[pri:0, instance:ng.day3@6771beb3]" started-at="2024-05-14T08:31:56 GMT-04:00" name="bftest" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bftest -->
+      </class> <!-- ng.day3 -->
+      <class name="ng.day2">
+        <test-method is-config="true" signature="bftest()[pri:0, instance:ng.day2@5e0e82ae]" started-at="2024-05-14T08:31:56 GMT-04:00" name="bftest" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bftest -->
+        <test-method signature="day2test1()[pri:0, instance:ng.day2@5e0e82ae]" started-at="2024-05-14T08:31:56 GMT-04:00" name="day2test1" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day2test1 -->
+        <test-method signature="day2test2()[pri:0, instance:ng.day2@5e0e82ae]" started-at="2024-05-14T08:31:56 GMT-04:00" name="day2test2" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day2test2 -->
+        <test-method signature="day2test3()[pri:0, instance:ng.day2@5e0e82ae]" started-at="2024-05-14T08:31:56 GMT-04:00" name="day2test3" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day2test3 -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:ng.day2@5e0e82ae]" started-at="2024-05-14T08:31:56 GMT-04:00" name="aftest" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+      </class> <!-- ng.day2 -->
+      <class name="ng.day1">
+        <test-method is-config="true" signature="beforecls()[pri:0, instance:ng.day1@443118b0]" started-at="2024-05-14T08:31:56 GMT-04:00" name="beforecls" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforecls -->
+        <test-method signature="day1test1()[pri:0, instance:ng.day1@443118b0]" started-at="2024-05-14T08:31:56 GMT-04:00" name="day1test1" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day1test1 -->
+        <test-method is-config="true" signature="afmethod()[pri:0, instance:ng.day1@443118b0]" started-at="2024-05-14T08:31:56 GMT-04:00" name="afmethod" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmethod -->
+        <test-method signature="day1test2()[pri:0, instance:ng.day1@443118b0]" started-at="2024-05-14T08:31:56 GMT-04:00" name="day1test2" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day1test2 -->
+        <test-method is-config="true" signature="afmethod()[pri:0, instance:ng.day1@443118b0]" started-at="2024-05-14T08:31:56 GMT-04:00" name="afmethod" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmethod -->
+        <test-method signature="day1test3()[pri:0, instance:ng.day1@443118b0]" started-at="2024-05-14T08:31:56 GMT-04:00" name="day1test3" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day1test3 -->
+        <test-method is-config="true" signature="afmethod()[pri:0, instance:ng.day1@443118b0]" started-at="2024-05-14T08:31:56 GMT-04:00" name="afmethod" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmethod -->
+        <test-method is-config="true" signature="aftest()[pri:0, instance:ng.day1@443118b0]" started-at="2024-05-14T08:31:56 GMT-04:00" name="aftest" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+        <test-method is-config="true" signature="bfsuite()[pri:0, instance:ng.day1@443118b0]" started-at="2024-05-14T08:31:56 GMT-04:00" name="bfsuite" finished-at="2024-05-14T08:31:56 GMT-04:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsuite -->
+      </class> <!-- ng.day1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
